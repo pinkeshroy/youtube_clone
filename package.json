@@ -2,7 +2,7 @@
   "name": "react2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pinkeshroy.github.io/youtube_clone/",
+  "homepage": "https://pinkeshroy.github.io/youtube_clone",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
