@@ -11,11 +11,11 @@ import SuggestionPage from "./components/SuggestionPage";
 
 const appRouter = createBrowserRouter([
   {
-    path: "youtube_clone",
+    path: "/",
     element: <Body />,
     children: [
       {
-        path: "/",
+        path: "youtube_clone",
         element: <MainContainer />,
       },
       {
