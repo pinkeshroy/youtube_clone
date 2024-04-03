@@ -9,25 +9,26 @@ import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 import SuggestionPage from "./components/SuggestionPage";
 
-const appRouter=createBrowserRouter([{
-  path:"/",
-  element:<Body/>,
-  children:[
-    {
-      path:"/",
-      element:<MainContainer/>
-    },
-    {
-      path:"watch",
-      element:<WatchPage/>
-    },
-    {
-      path:"video",
-      element:<SuggestionPage/>
-    }
-  ],
- 
-}])
+const appRouter = createBrowserRouter([
+  {
+    path: "youtube_clone",
+    element: <Body />,
+    children: [
+      {
+        path: "/",
+        element: <MainContainer />,
+      },
+      {
+        path: "watch",
+        element: <WatchPage />,
+      },
+      {
+        path: "video",
+        element: <SuggestionPage />,
+      },
+    ],
+  },
+]);
 const App=()=>{
   return(
     <Provider store={store}>
